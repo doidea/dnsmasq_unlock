@@ -48,6 +48,8 @@ if [ $? -eq 0 ]; then
     echo "server=/netflixdnstest9.com/$1" >> /etc/dnsmasq.d/unlock.conf
     echo "server=/netflixdnstest10.com/$1" >> /etc/dnsmasq.d/unlock.conf
     echo "server=/netflix.com.edgesuite.net/$1" >> /etc/dnsmasq.d/unlock.conf
+    echo "server=/.dualstack.apiproxy-*.amazonaws.com/$1" >> /etc/dnsmasq.d/unlock.conf
+    echo "server=/.dualstack.ichnaea-web-*.amazonaws.com/$1" >> /etc/dnsmasq.d/unlock.conf
     
     systemctl restart dnsmasq
     echo "dnsmasq 启动成功"
