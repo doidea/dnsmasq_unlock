@@ -23,3 +23,6 @@ systemctl restart dnsmasq
 
 ## 不再使用
 直接修改`/etc/resol.conf`中的`127.0.0.1`为其他dns即可，如：`8.8.8.8`, `1.1.1.1`
+
+## 关于
+先就这样用吧！
