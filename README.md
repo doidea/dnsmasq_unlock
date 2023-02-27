@@ -1,6 +1,10 @@
 # dnsmasq_unlock
 给需要解锁的机子
 
+## 写在前面
+1. 确保53端口未占用
+2. 确保`/etc/resolv.conf`没有被加锁
+
 ## 使用方法
 例1：Netflix
 ```
