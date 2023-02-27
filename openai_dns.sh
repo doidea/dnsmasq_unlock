@@ -23,8 +23,6 @@ if [ $? -eq 0 ]; then
     echo "nameserver 127.0.0.1" > /etc/resolv.conf
     mkdir -p /etc/dnsmasq.d/ && touch /etc/dnsmasq.d/unlock.conf
     echo "server=1.1.1.1" > /etc/dnsmasq.d/unlock.conf
-    echo "server=8.8.8.8" >> /etc/dnsmasq.d/unlock.conf
-    echo "server=114.114.114.114" >> /etc/dnsmasq.d/unlock.conf
     echo "server=/ai.com/$1" >> /etc/dnsmasq.d/unlock.conf
     echo "server=/openai.com/$1" >> /etc/dnsmasq.d/unlock.conf
     echo "server=/openaiapi-site.azureedge.net/$1" >> /etc/dnsmasq.d/unlock.conf
