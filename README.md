@@ -12,7 +12,7 @@ bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/nf_
 ```
 例2：OpenAI
 ```
-bash <(https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/openai_dns.sh) IP
+bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/openai_dns.sh) IP
 ```
 `IP`换成有解锁的IP（解锁机的IP）
 
