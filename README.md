@@ -14,6 +14,10 @@ bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/nf_
 ```
 bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/openai_dns.sh) IP
 ```
+例3：Disney
+```
+bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/disney_dns.sh) IP
+```
 `IP`换成有解锁的IP（解锁机的IP）
 
 ## 自定义配置文件
