@@ -8,12 +8,13 @@
 ## 使用方法
 例1：Netflix
 ```
-wget https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/nf_dns.sh && chmod +x nf_dns.sh && ./nf_dns.sh 解锁IP
+bash <(curl -sS https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/nf_dns.sh) IP
 ```
 例2：OpenAI
 ```
-wget https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/openai_dns.sh && chmod +x openai_dns.sh && ./openai_dns.sh 解锁IP
+bash <(https://raw.githubusercontent.com/doidea/dnsmasq_unlock/main/openai_dns.sh) IP
 ```
+`IP`换成有解锁的IP（解锁机的IP）
 
 ## 自定义配置文件
 前去`/etc/dnsmasq.d/unlock.conf`修改，然后重启dnsmasq
